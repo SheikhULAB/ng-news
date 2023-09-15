@@ -10,14 +10,15 @@ export class TcnewsapiService {
   constructor(private _http:HttpClient) { }
 
   // top headlines api url
-  topHeadlinesNews = 'https://newsapi.org/v2/everything?domains=wsj.com&apiKey=1ca7a94b25c849b28063775243e0bea7'
-
+  topHeadlinesNews = 'https://gnews.io/api/v4/top-headlines?category=general&lang=en&country=us&apikey=1fd8479a1c9096af0e352f0e34aa45e9'
 
   // tech news
-  techNews = 'https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=1ca7a94b25c849b28063775243e0bea7'
+  techNews = 'https://gnews.io/api/v4/top-headlines?category=technology&lang=en&country=us&apikey=1fd8479a1c9096af0e352f0e34aa45e9'
+
 
   // business news ap url
-  businessNews = 'https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=1ca7a94b25c849b28063775243e0bea7'
+  businessNews = 'https://gnews.io/api/v4/top-headlines?category=business&lang=en&country=us&apikey=1fd8479a1c9096af0e352f0e34aa45e9'
+
 
 
   tcHeadlines(): Observable<any> {
