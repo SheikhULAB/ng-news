@@ -10,11 +10,11 @@ export class TcnewsapiService {
   constructor(private _http:HttpClient) { }
 
   // top headlines api url
-  topHeadlinesNews = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=1ca7a94b25c849b28063775243e0bea7'
+  topHeadlinesNews = 'https://newsapi.org/v2/everything?domains=wsj.com&apiKey=1ca7a94b25c849b28063775243e0bea7'
 
 
   // tech news
-  techNews = 'https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=1ca7a94b25c849b28063775243e0bea7'
+  techNews = 'https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=1ca7a94b25c849b28063775243e0bea7'
 
   // business news ap url
   businessNews = 'https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=1ca7a94b25c849b28063775243e0bea7'
