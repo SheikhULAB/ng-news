@@ -1,4 +1,4 @@
-live site: https://glittering-starlight-ec77ab.netlify.app/
+live site:: https://glittering-starlight-ec77ab.netlify.app/
 # NgNews
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
